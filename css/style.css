@@ -35,16 +35,24 @@ header {
 
 .nav-links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 5px;
 }
 
 .nav-links li a {
     transition: all 0.3s ease 0s;
 }
 
+.nav-links li a img{
+    width: 30px;
+    margin-bottom: -9px;
+}
 
 .nav-links li a:hover {
     color: #0088a9;
+}
+
+.shade-card {
+    margin-left: 30px;
 }
 
 button {
