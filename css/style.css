@@ -80,6 +80,7 @@ button:hover {
     flex-wrap: nowrap;
     justify-content: center;
     align-items:  center;
+    font-size: 100%;  /* need to write media query for multiple dimensions*/
 }
 
 .header-img h1 {
@@ -131,7 +132,9 @@ button:hover {
     color: rgba(250, 247, 247,1);
     width: 33%;
     margin: 1%;
-    height: 470px;
+    height: initial;
+    max-height: fit-content;
+    /* height: 470px; */
     display: flex;
     flex-direction: column;
     background-color: rgba(247, 249, 249,0.9);
